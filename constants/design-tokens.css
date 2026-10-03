@@ -1,0 +1,181 @@
+:root {
+  color-scheme: light;
+
+  --color-wine: #722f37;
+  --color-wine-deep: #35161b;
+  --color-ink: #241014;
+  --color-body: #655c5e;
+  --color-muted: #9d6c74;
+  --color-canvas: #f8f4e7;
+  --color-surface: #fffcf6;
+  --color-blush: #f3e7e4;
+  --color-rose: #d7a7b1;
+  --color-rose-light: #ebcfd5;
+  --color-sage: #50715d;
+  --color-sand: #efe7d5;
+  --color-white: #ffffff;
+  --color-border: #e8c8c2;
+
+  --font-inter: "Inter";
+  --font-playfair: "Playfair Display";
+
+  --text-10: 0.625rem;
+  --text-11: 0.6875rem;
+  --text-12: 0.75rem;
+  --text-13: 0.8125rem;
+  --text-14: 0.875rem;
+  --text-15: 0.9375rem;
+  --text-16: 1rem;
+  --text-17: 1.0625rem;
+  --text-19: 1.1875rem;
+  --text-20: 1.25rem;
+  --text-21: 1.3125rem;
+  --text-22: 1.375rem;
+  --text-23: 1.4375rem;
+  --text-24: 1.5rem;
+  --text-25: 1.5625rem;
+  --text-28: 1.75rem;
+  --text-32: 2rem;
+  --text-34: 2.125rem;
+  --text-36: 2.25rem;
+  --text-42: 2.625rem;
+  --text-44: 2.75rem;
+  --text-46: 2.875rem;
+  --text-52: 3.25rem;
+  --text-58: 3.625rem;
+  --text-72: 4.5rem;
+  --text-hero: 2.625rem;
+
+  --leading-10: 0.76rem;
+  --leading-11: 0.84rem;
+  --leading-12: 0.95rem;
+  --leading-13: 1.2rem;
+  --leading-14: 1.4rem;
+  --leading-15: 1.5rem;
+  --leading-16: 1.65rem;
+  --leading-17: 1.7rem;
+  --leading-19: 1.45rem;
+  --leading-20: 2rem;
+  --leading-21: 1.9rem;
+  --leading-22: 1.8rem;
+  --leading-23: 1.92rem;
+  --leading-24: 1.9rem;
+  --leading-25: 1.72rem;
+  --leading-28: 2.1rem;
+  --leading-32: 2.67rem;
+  --leading-34: 2.34rem;
+  --leading-36: 2.43rem;
+  --leading-42: 2.3rem;
+  --leading-44: 2.8rem;
+  --leading-46: 3.16rem;
+  --leading-52: 3.51rem;
+  --leading-58: 3.7rem;
+  --leading-72: 4.59rem;
+  --leading-hero: 1.02;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-7: 1.75rem;
+  --space-8: 2rem;
+  --space-9: 2.25rem;
+  --space-10: 2.5rem;
+  --space-11: 2.75rem;
+  --space-12: 3rem;
+  --space-13: 3.25rem;
+  --space-14: 3.5rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-28: 7rem;
+  --space-32: 8rem;
+  --space-36: 9rem;
+  --space-40: 10rem;
+  --space-44: 11rem;
+  --space-48: 12rem;
+  --space-52: 13rem;
+  --space-56: 14rem;
+  --space-60: 15rem;
+  --space-64: 16rem;
+  --space-72: 18rem;
+  --space-80: 20rem;
+  --space-96: 24rem;
+
+  --space-10px: 0.625rem;
+  --space-12px: 0.75rem;
+  --space-13px: 0.8125rem;
+  --space-14px: 0.875rem;
+  --space-18px: 1.125rem;
+  --space-22px: 1.375rem;
+  --space-30px: 1.875rem;
+  --space-42px: 2.625rem;
+  --space-44px: 2.75rem;
+  --space-46px: 2.875rem;
+  --space-50px: 3.125rem;
+  --space-52px: 3.25rem;
+  --space-54px: 3.375rem;
+  --space-56px: 3.5rem;
+  --space-58px: 3.625rem;
+  --space-76px: 4.75rem;
+  --space-88px: 5.5rem;
+  --space-108px: 6.75rem;
+
+  --space-page: 1.5rem;
+  --space-section: 4.75rem;
+  --space-hero-top: 3.375rem;
+  --space-hero-bottom: 4rem;
+  --space-hero-gap: 3.125rem;
+  --space-heading-gap: 2.5rem;
+  --space-proof-y: 3rem;
+  --space-contact-y: 4rem;
+  --space-contact-panel: 1.75rem;
+  --space-footer-top: 4rem;
+  --space-card-pad: 1.5rem;
+  --space-button-x: 1.5rem;
+  --space-grid-gap: 1.25rem;
+  --size-header: 4.5rem;
+
+  --radius-card: 1rem;
+  --radius-panel: 2rem;
+  --radius-image: 1.5rem;
+  --radius-pill: 999px;
+  --layout-content: 80rem;
+}
+
+@media (min-width: 48rem) {
+  :root {
+    --text-hero: 3.625rem;
+    --space-page: 3rem;
+    --space-section: 6.75rem;
+    --space-hero-top: 4.75rem;
+    --space-hero-bottom: 5.5rem;
+    --space-proof-y: 3.625rem;
+    --space-contact-y: 5.5rem;
+    --space-contact-panel: 3.25rem;
+    --space-footer-top: 4.75rem;
+    --space-heading-gap: 3.5rem;
+    --size-header: 5.375rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  :root {
+    --text-hero: 4.5rem;
+    --space-page: 5rem;
+    --space-hero-gap: 4rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,8 @@
+.next/
+node_modules/
+out/
+coverage/
+.env*
+!.env.example
+*.tsbuildinfo
+.vscode/mcp.json
