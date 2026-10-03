@@ -5,6 +5,7 @@
 :root {
   font-family: var(--font-inter), Arial, sans-serif;
   scroll-behavior: smooth;
+  scroll-padding-top: var(--size-header);
 }
 
 * {
@@ -68,7 +69,8 @@ input:focus-visible {
 }
 
 .site-header {
-  position: relative;
+  position: sticky;
+  top: 0;
   z-index: 20;
   height: var(--size-header);
   border-bottom: 1px solid rgb(53 22 27 / 8%);
